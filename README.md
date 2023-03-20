@@ -1,5 +1,5 @@
 # Css-Grid-Responsive-Layout
-Responsive Layout Using Grid Area
+**Responsive Layout Using Grid Area**
 
 **grid-template-areas** is a property in CSS that allows you to define the placement of grid items using named grid areas. This can be useful for creating complex layouts and positioning items within a grid.
 
