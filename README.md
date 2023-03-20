@@ -17,11 +17,17 @@ grid-template-areas and grid-area are two related CSS properties that can be use
 grid-template-areas is used to define the names of areas within the grid. Each area is represented as a string of characters, where each character corresponds to a grid cell. The characters can be any non-whitespace character, and they should be separated by spaces or line breaks. For example:
 
 .grid {
+
   display: grid;
+  
   grid-template-areas:
+  
     "header header header"
+    
     "nav main main"
+    
     "nav footer footer";
+    
 }
 
 In this example, we define a 3x3 grid with three named areas: "header", "nav", and "footer". The cells in the first row are all named "header", the cells in the second row are named "nav" and "main", and the cells in the third row are named "nav" and "footer".
