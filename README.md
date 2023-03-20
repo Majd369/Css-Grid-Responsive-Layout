@@ -14,6 +14,8 @@ Reordering items: Using named grid areas, you can easily reorder items within th
 Overall, grid-template-areas is a powerful tool for creating complex grid layouts and positioning items within them. If you're working with CSS grids, it's definitely worth exploring.
 grid-template-areas and grid-area are two related CSS properties that can be used together to define a grid layout.
 
+https://raw.githubusercontent.com/Majd369/Css-Grid-Responsive-Layout/main/css%20grid%20layout.PNG
+
 grid-template-areas is used to define the names of areas within the grid. Each area is represented as a string of characters, where each character corresponds to a grid cell. The characters can be any non-whitespace character, and they should be separated by spaces or line breaks. For example:
 
 .grid {
