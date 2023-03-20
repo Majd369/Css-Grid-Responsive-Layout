@@ -35,15 +35,21 @@ In this example, we define a 3x3 grid with three named areas: "header", "nav", a
 Once you have defined the grid areas using grid-template-areas, you can use the grid-area property to place items into those areas. The grid-area property takes the name of the area as its value, and it can be applied to any grid item. For example:
 
 .item-a {
+
   grid-area: header;
+  
 }
 
 .item-b {
+
   grid-area: main;
+  
 }
 
 .item-c {
+
   grid-area: footer;
+  
 }
 
 In this example, we use grid-area to place three items into the areas we defined earlier: item-a goes in the "header" area, item-b goes in the "main" area, and item-c goes in the "footer" area.
